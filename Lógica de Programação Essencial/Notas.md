@@ -24,8 +24,6 @@ Exercício = só somar as 4 notas e depois dividir o resultado por 4
 
         DECLARA nota2: número
 
-
-
 * Tipos: numéricas, caracteres, alfanuméricas, lógicas.
 
 * Constantes: imutáveis, não vão ser alterados durante a execução do programa. 
@@ -37,8 +35,6 @@ Exercício = só somar as 4 notas e depois dividir o resultado por 4
         DECLARA p=3,14
 
         ...
-
-
 
 ## Tomadas de decisão e expressões aritméticas:
 
@@ -62,27 +58,19 @@ Operadores relacionais: os operadores que retornam bool (verdadeiro ou falso). O
 
 ''!='': diferente de
 
-
-
 ## Estrutura de repetição
 
 Repetições, junto com tomadas de decisão, são 70% da programação. Serve para repetir os mesmos comandos de forma condicionada.
-
-
 
 ![Exemplo de Estrutura de Repetição](exemplo-estrutura-repeticao.png)
 
 *Dica: No Flowgorithm, é possível concatenar texto com variável usanco o "&".*
 
-
-
 Exercício - fazer taboada do 9 com loop.
 
-]![](exemplo-taboada-utilizando-loop.png)
+![](exemplo-taboada-utilizando-loop.png)
 
 Nesse fluxograma, já mostra a taboada toda sem precisar do input do usuário.
-
-
 
 ## Linguagens de programação e Portugol
 
@@ -92,27 +80,17 @@ Por mais que linguagens como VHDL e Verilog têm sintaxe que remetem a Linguagem
 
 "O que é óbvio para você, certamente não é óbvio para uma máquina. E se você quer que a máquina faça algo para você, você precisa 'falar com ela' (na mesma linguagem)."
 
-
-
 O óbvio pra mim não é o óbvio pra eles. Hehehe.
-
-
 
 Tipos de linguagens:
 
 * Alto nível: sintaxe similar a linguagem humana, como C/C++, C#, VB, Java, etc.
 
 * Baixo nível: mais próxima ao de máquina, como Assembly, Linguagem de máquina.
-  
-  
 
 Compiladas: O código fonte é executado pelo SO/processador direto. C++, C#, Delphi, por exemplo, são compiladas.
 
-
-
 Interpretadas: São executadas por software interpretador, para então ser executado pelo SO ou processador. Linguagens usadas em web browsers são interpretadas, como JavaScript, PHP, etc.
-
-
 
 Portugol: pseudolinguagem pra desenvolver algorítmos usando o português, pra ficar mais fácil de entender o algorítmo. Professor recomendou o uso do Portugol Studio.
 
@@ -124,8 +102,6 @@ No post abaixo, há mais informações sobre.
 
 https://www.c-sharpcorner.com/UploadFile/9b86d4/how-to-return-multiple-values-from-a-function-in-C-Sharp/
 
-
-
 ## No Portugol Studio
 
 Tipo de variável cadeia: cadeia de caracteres (string)
@@ -133,8 +109,6 @@ Tipo de variável cadeia: cadeia de caracteres (string)
 Para pular linha, basta colocar "\n" no texto. Exemplo: *escreva("\n")*
 
 Sintaxe do loop ''for'' é igual a do C / C#.
-
-
 
 ### Exemplos de pseudocódigos no Portugol Studio
 
@@ -168,8 +142,6 @@ Case no Portugol Studio:
 
     }
 
-
-
 #### Comentários no código
 
 * Para múltiplas linhas:
@@ -181,8 +153,6 @@ Case no Portugol Studio:
 * Para única linha: 
 
         //
-
-
 
 #### Loops
 
@@ -196,8 +166,6 @@ Case no Portugol Studio:
 
         }enquanto(contador<=limite)
 
-
-
 ## Vetor e Matriz
 
 Vetor:  uma dimensão só. Exemplo no pseudocódigo:
@@ -205,8 +173,6 @@ Vetor:  uma dimensão só. Exemplo no pseudocódigo:
     cadeia frutas[4]
 
     frutas[0] = "Maçã"
-
-
 
 Matriz: mais de uma dimensão. Exemplos no pseudocódigo:
 
@@ -249,7 +215,5 @@ Matriz: mais de uma dimensão. Exemplos no pseudocódigo:
             }
 
      }
-
-
 
 No Portugol Studio, o primeiro índice de vetor/matriz também é zero.
