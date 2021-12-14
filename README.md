@@ -10,11 +10,11 @@ O Decola Tech Avanade é o programa de Estágio da Avanade no qual os futuros ta
 
 ## Conteúdo
 
-* [Lógica de Programação Essencial](Lógica%20de%20Programação%20Essencial/Notas.md)
+* [Lógica de Programação Essencial](Lógica%20de%20Programação%20Essencial/README.md)
 
-* [Estrutura de Dados e Algorítmos](Estrutura%20de%20Dados%20e%20Algorítmos/Notas.md)
+* [Estrutura de Dados e Algorítmos](Estrutura%20de%20Dados%20e%20Algorítmos/README.md)
 
-* Introdução ao Git e ao GitHub
+* [Introdução ao Git e ao GitHub](Introdução%20ao%20Git%20e%20ao%20GitHub/README.md)
 
 * Criando primeiro repositório no GitHub para compartilhar o progresso
 
