@@ -10,7 +10,7 @@ O Decola Tech Avanade é o programa de Estágio da Avanade no qual os futuros ta
 
 ## Conteúdo
 
-* Lógica de Programação Essencial
+* [Lógica de Programação Essencial](Lógica de Programação Essencial/Notas.md)
 
 * Estrutura de Dados e Algorítmos
 
