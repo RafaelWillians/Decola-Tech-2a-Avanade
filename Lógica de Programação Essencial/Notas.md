@@ -72,172 +72,184 @@ Repetições, junto com tomadas de decisão, são 70% da programação. Serve pa
 
 ![Exemplo de Estrutura de Repetição](exemplo-estrutura-repeticao.png)
 
+*Dica: No Flowgorithm, é possível concatenar texto com variável usanco o "&".*
 
 
 
+Exercício - fazer taboada do 9 com loop.
+
+]![](exemplo-taboada-utilizando-loop.png)
+
+Nesse fluxograma, já mostra a taboada toda sem precisar do input do usuário.
 
 
 
-***No Flowgorithm, tem como concatenar texto com variável usanco o &.**
-
-Exercício - fazer taboada do 9 com loop
-
-Nessa estrutura, já mostra a taboada toda sem input do usuário.
-
-Linguagens de programação e Portugol
+## Linguagens de programação e Portugol
 
 Linguagem de Programação é uma linguagem escrita e formal pra gerar softwares.
 
-Por mais que linguagens como VHDL e Verilog têm sintaxe que remetem a Linguagem de programação, não são necessariamente definidos como linguagens de programação, mas Linguagens de Descrição de Hardware (apesar de terem estruturas bem similares).
+Por mais que linguagens como VHDL e Verilog têm sintaxe que remetem a Linguagem de programação, aparentemente não são necessariamente definidos como linguagens de programação, mas Linguagens de Descrição de Hardware (apesar de terem estruturas bem similares).
 
-O óbvio pra mim não é o óbvio pra eles hehehe
+"O que é óbvio para você, certamente não é óbvio para uma máquina. E se você quer que a máquina faça algo para você, você precisa 'falar com ela' (na mesma linguagem)."
 
-Alto nível: sintaxe similar a linguagem humana
 
-Geral das linguas conhecidas.
 
-Baixo nível: mais próxima ao de máquina
+O óbvio pra mim não é o óbvio pra eles. Hehehe.
 
-Assembly, Linguagem de máquina
 
-Compiladas
 
-O código fonte é executado pelo SO/processador direto.
+Tipos de linguagens:
 
-C++, C#, Delphi, por exemplo, são compiladas.
+* Alto nível: sintaxe similar a linguagem humana, como C/C++, C#, VB, Java, etc.
 
-Interpretadas
+* Baixo nível: mais próxima ao de máquina, como Assembly, Linguagem de máquina.
+  
+  
 
-É executado por software interpretador, para então ser executado pelo SO ou processador.
+Compiladas: O código fonte é executado pelo SO/processador direto. C++, C#, Delphi, por exemplo, são compiladas.
 
-Linguagens usadas em web browsers são interpretadas, como JavaScript, PHP, etc.
 
-Portugol
 
-Pseudolinguagem pra desenvolver algorítmos usando o português, pra ficar mais fácil de entender o algorítmo.
+Interpretadas: São executadas por software interpretador, para então ser executado pelo SO ou processador. Linguagens usadas em web browsers são interpretadas, como JavaScript, PHP, etc.
 
-Recomendou o Portugol Studio
 
-Nele, testei se tinha como fazer subrotinas, é possível, mas fui curiar e testar se havia como fazer mais de um retorno na mesma função.
+
+Portugol: pseudolinguagem pra desenvolver algorítmos usando o português, pra ficar mais fácil de entender o algorítmo. Professor recomendou o uso do Portugol Studio.
+
+Nele, testei se tinha como fazer subrotinas. É possível, mas fui curiar e testar se havia como fazer mais de um retorno na mesma função.
 
 Pesquisei e vi que no C# por exemplo, não é possível apenas dando o comando 'return', mas há formas de contornar isso, como retornar valores em um vetor.
 
+No post abaixo, há mais informações sobre.
+
 https://www.c-sharpcorner.com/UploadFile/9b86d4/how-to-return-multiple-values-from-a-function-in-C-Sharp/
 
-No Portugol Studio
 
-Tipo de variável cadeia = cadeia de caracteres (string)
 
-Para pular linha = só colocar \n no texto. Exemplo: escreva("\n")
+## No Portugol Studio
 
-Sintaxe do loop ''for'' é igual a do C / C#
+Tipo de variável cadeia: cadeia de caracteres (string)
 
-Sintaxe do case:
+Para pular linha, basta colocar "\n" no texto. Exemplo: *escreva("\n")*
 
-int valor=0
+Sintaxe do loop ''for'' é igual a do C / C#.
 
-escolha (valor)
 
-{
 
-caso 1: escreva("OK! Abrir Netflix")
+### Exemplos de pseudocódigos no Portugol Studio
 
-pare
+Case no Portugol Studio:
 
-caso 2: escreva("OK! Abrir Amazon Prime")
+    int valor=0
 
-pare
+    escolha (valor)
 
-caso 3: escreva("OK! Abrir HBO GO")
+    {
 
-pare
+        caso 1: escreva("OK! Abrir Netflix")
 
-caso 4: escreva("OK! Sair")
+        pare
 
-pare
+        caso 2: escreva("OK! Abrir Amazon Prime")
 
-caso contrario:
+        pare
 
-escreva("Escolha uma opção válida!")
+        caso 3: escreva("OK! Abrir HBO GO")
 
-}
+        pare
 
-Comentários no código:
+        caso 4: escreva("OK! Sair")
 
-múltiplas linhas:
+        pare
 
-/*
+        caso contrario:
 
-*/
+        escreva("Escolha uma opção válida!")
 
-uma linha só: //
+    }
 
-Loops:
 
-Do While:
 
-faca
+#### Comentários no código
 
-{
+* Para múltiplas linhas:
 
-contador ++
+        /*
 
-}enquanto(contador<=limite)
+        */
 
----
+* Para única linha: 
 
-Vetor e Matriz
+        //
 
-Vetor = uma dimensão só
 
-Matriz = mais de uma
 
-cadeia frutas[4]
+#### Loops
 
-frutas[0] = "Maçã"
+* Do While:
 
-No Portugol Studio, o primeiro índice também é zero.
+        faca
 
-Exemplo de uma matriz:
+        {
 
-cadeia cesta [][]= {{"Maça", "100"},{"Pera", "200"}, {"Melao", "300"}}
+            contador ++
 
-Exemplo:
+        }enquanto(contador<=limite)
 
-programa
 
-{
 
-funcao inicio()
+## Vetor e Matriz
 
-{
+Vetor:  uma dimensão só. Exemplo no pseudocódigo:
 
-cadeia cesta [][]= {{"Maça", "100"},{"Pera", "200"}, {"Melao", "300"}}
+    cadeia frutas[4]
 
-escreva(cesta[0][0])
+    frutas[0] = "Maçã"
 
-escreva("\n")
 
-escreva(cesta[0][1])
 
-escreva("\n")
+Matriz: mais de uma dimensão. Exemplos no pseudocódigo:
 
-escreva(cesta[1][0])
+* inteiro x[4][3] //matriz com 4 linhas e 3 colunas
 
-escreva("\n")
+* cadeia cesta [][]= {{"Maça", "100"},{"Pera", "200"}, {"Melao", "300"}}
 
-escreva(cesta[1][1])
+* programa
 
-escreva("\n")
+        {
 
-escreva(cesta[2][0])
+            funcao inicio()
 
-escreva("\n")
+            {
 
-escreva(cesta[2][1])
+                cadeia cesta [][]= {{"Maça", "100"},{"Pera", "200"}, {"Melao", "300"}}
 
-}
+                escreva(cesta[0][0])
 
-}
+                escreva("\n")
 
-inteiro x[4][3] //matriz com 4 linhas e 3 colunas
+                escreva(cesta[0][1])
+
+                escreva("\n")
+
+                escreva(cesta[1][0])
+
+                escreva("\n")
+
+                escreva(cesta[1][1])
+
+                escreva("\n")
+
+                escreva(cesta[2][0])
+
+                escreva("\n")
+
+                escreva(cesta[2][1])
+
+            }
+
+     }
+
+
+
+No Portugol Studio, o primeiro índice de vetor/matriz também é zero.
