@@ -70,7 +70,7 @@ Repetições, junto com tomadas de decisão, são 70% da programação. Serve pa
 
 
 
-![Exemplo de Estrutura de Repetição (Loop)] (/exemplo-estrutura-repeticao.png)
+![Exemplo de Estrutura de Repetição (Loop)] (/Lógica%20de%20Programação%20Essencial/exemplo-estrutura-repeticao.png)
 
 
 
