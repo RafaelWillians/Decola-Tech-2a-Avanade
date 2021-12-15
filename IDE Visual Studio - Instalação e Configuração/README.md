@@ -40,6 +40,10 @@ A depuração é feita quando colocamos uma quebra no código (breakpoint), na h
 
 ## Criando teste
 
+Necessário primeiro criarmos um projeto de Teste, seja em uma solução nova ou em uma solução existente. Na tela dos templates, basta pesquisar por teste (utilizei no exemplo abaixo o template Projeto de Teste MSTest).
+
+![](C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\IDE%20Visual%20Studio%20-%20Instalação%20e%20Configuração\criar-projeto-teste.png)
+
 Para criarmos um teste, no código clicamos com botão direito no método que será testado e em Criar Testes de Unidade.
 
 Em cada método, precisamos definir seguindo um padrão "AAA" (Arrange, Act, Assert):
