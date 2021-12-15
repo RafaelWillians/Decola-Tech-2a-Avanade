@@ -20,7 +20,7 @@ O Decola Tech Avanade é o programa de Estágio da Avanade no qual os futuros ta
 
 * [IDE Visual Studio - Instalação e Configuração](IDE%20Visual%20Studio%20-%20Instalação%20e%20Configuração/README.md)
 
-* Introdução ao C# e .NET
+* [Introdução ao C# e .NET](Introdução%20ao%20C%23%20e%20.NET/README.md)
 
 * Primeiros passos com .NET
 
