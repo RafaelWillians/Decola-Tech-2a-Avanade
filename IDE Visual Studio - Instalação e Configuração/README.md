@@ -37,3 +37,21 @@ A depuração é feita quando colocamos uma quebra no código (breakpoint), na h
 ## Integração com Git e GitHub
 
 É possível tanto clonarmos um repositório existente, quanto criarmos um novo através do Visual Studio, tanto na tela inicial quanto no menu "Git". É possível efetuar pull e push através do próprio Visual Studio.
+
+## Criando teste
+
+Para criarmos um teste, no código clicamos com botão direito no método que será testado e em Criar Testes de Unidade.
+
+Em cada método, precisamos definir seguindo um padrão "AAA" (Arrange, Act, Assert):
+
+* A seção Organizar (ou Arrange) de um método de teste inicializa os objetos e define o valor dos dados que são passados para o método a ser testado.
+
+* Na seção Agir (Act), invocamos o método com os parâmetros organizados.
+
+* Na seção Declara (Assert), verificamos se a ação do método em teste se comporta conforme esperado.
+
+Clicando em Testes > Executar todos os testes, vai abrir uma janela com os resultados de cada teste.
+
+[Introdução ao teste de unidade - Visual Studio (Windows) | Microsoft Docs](https://docs.microsoft.com/pt-br/visualstudio/test/getting-started-with-unit-testing?view=vs-2022&tabs=dotnet%2Cmstest)
+
+
