@@ -54,4 +54,6 @@ Clicando em Testes > Executar todos os testes, vai abrir uma janela com os resul
 
 [Introdução ao teste de unidade - Visual Studio (Windows) | Microsoft Docs](https://docs.microsoft.com/pt-br/visualstudio/test/getting-started-with-unit-testing?view=vs-2022&tabs=dotnet%2Cmstest)
 
+Exemplo de projeto de teste:
 
+![](C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\IDE%20Visual%20Studio%20-%20Instalação%20e%20Configuração\teste-de-codigo.png)
