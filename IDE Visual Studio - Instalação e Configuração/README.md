@@ -34,6 +34,8 @@ Podemos inspecionar o código no momento que o depuramos. Pode ser feita passand
 
 A depuração é feita quando colocamos uma quebra no código (breakpoint), na hora que ele executa. Para que serve isso? Para pausadamente, linha por linha, identificarmos possíveis erros no código, aplicação, etc. Com os breakpoints, é possível vermos os estados, os retornos da aplicação por cada linha do código.
 
+É possível marcarmos breakpoints clicando no canto mais à esquerda da tela do código, na linha que desejamos marcar.
+
 ## Integração com Git e GitHub
 
 É possível tanto clonarmos um repositório existente, quanto criarmos um novo através do Visual Studio, tanto na tela inicial quanto no menu "Git". É possível efetuar pull e push através do próprio Visual Studio.

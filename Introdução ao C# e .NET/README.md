@@ -75,8 +75,6 @@ class Animal
 
 Os "getters" e "setters" servem para essa classe possa receber ou nos informar por esse exemplo, qual o nome do Animal, qual a idade e espécie. Mas não é a classe em si que vai ter nome, idade ou espécie. Aqui é somente para informarmos que cada Animal **pode** ter um nome, idade ou espécie. 
 
-
-
 Quando instanciamos uma classe, essa instância chamamos de "objeto". E continuando no exemplo acima, a partir dos objetos que então definimos qual o nome, idade ou espécie que esse animal específico (que é o objeto) tem. É como se "criássemos uma cópia" da classe, só para usarmos essa cópia como algo à parte e "editável". A classe em si fica lá, estática, com as características todas. Agora, cada animal será diferente do outro, então para cada animal diferente, é um objeto diferente.
 
 Exemplo de instanciar um objeto:
@@ -89,44 +87,169 @@ vertebrado.Idade = 40;
 
 vertebrado.Especie = "Humano";
 
-
-
 ### Interface
 
 É como se fosse uma classe base, para outras classes.
 
-Se utilizar uma interface numa classe, é necessário informar na classe em si todos os membros da Interface.
+A interface terá apenas métodos e a assinatura deles. Não terá atributos (você não pode declarar variáveis dentro da interface por exemplo).
 
+Se for utilizar uma interface numa classe, é necessário informar na classe em si todos os métodos da Interface.
 
+Uma classe por exemplo pode "herdar" múltiplas interfaces, ou seja, pode adotar métodos de várias interfaces diferentes.
 
+Sempre adicionar letra "I" ou "i" no início do nome da interface.
 
+Exemplo:
 
+public interface IVeiculo
 
+{
 
+    void ligar();
 
+    void desligar();
 
+    void info();
 
+}
 
+public interface ICombate
 
+{
 
+    void disparar();
 
+}
 
+//aqui por exemplo, informamos que a classe Carro terá tanto os métodos da interface //IVeiculo, quanto da interface ICombate
 
+class Carro:IVeiculo,ICombate
 
+{
 
+    //aqui implementamos os métodos das interfaces na classe Carro
 
+    public bool ligado;
 
+    private int municao;
 
+    public Carro()
 
+    {
 
+        this.municao=100;
 
+    }
 
+    public void setMunicao(int qtde)
 
+    {
 
+        this.municao=qtde;
 
+    }
 
+    public void ligar();
 
+    {
 
+        this.ligado=true;
 
+    }
 
+    public void desligar();
 
+    {
+
+        this.ligado=false;
+
+    }
+
+    public void disparar()
+
+    {
+
+    }
+
+    public void info()
+
+    {
+
+    }
+
+}
+
+class Teste
+
+{
+
+    static void Main()
+
+    {
+
+         Carro cl=new Carro();
+
+    }   
+
+}
+
+[Interfaces - Curso Programação Completo C# - Aula 43 - YouTube](https://www.youtube.com/watch?v=NSjz4HS7bPU)
+
+### Enum
+
+Enum serve para declararmos constantes nomeadas, que o índice inicial é zero e vai incrementando de 1 em 1, como se fosse um vetor.
+
+Exemplo:
+
+enum Estacao
+
+{
+
+    primavera,
+
+    verao,
+
+    outono,
+
+    inverno
+
+}
+
+Exemplo 2:
+
+public enum Season
+{
+     Spring,
+     Summer,
+     Autumn,
+     Winter
+} 
+
+public class EnumConversionExample 
+
+{ 
+
+    public static void Main() 
+
+    {
+         Season a = Season.Autumn;
+         Console.WriteLine($"Integral value of {a} is {(int)a}"); 
+
+        // output: Integral value of Autumn is 2 
+
+         var b = (Season)1;
+         Console.WriteLine(b); // output: Summer var c = (Season)4;
+         Console.WriteLine(c); 
+
+        // output: 4 
+
+    }
+}
+
+## Debugging
+
+Podemos inspecionar o código no momento que o depuramos. Pode ser feita passando o cursor do mouse por cima da variável, ou abrindo a janela QuickWatch pelo menu Depurar. É possível ver por exemplo como está o estado de uma variável, qual valor e tipo ela está recebendo.
+
+A depuração é feita quando colocamos uma quebra no código (breakpoint), na hora que ele executa. Para que serve isso? Para pausadamente, linha por linha, identificarmos possíveis erros no código, aplicação, etc. Com os breakpoints, é possível vermos os estados, os retornos da aplicação por cada linha do código.
+
+É possível marcarmos breakpoints clicando no canto mais à esquerda da tela do código, na linha que desejamos marcar.
