@@ -60,8 +60,6 @@ Agora só existe .NET 5, não mais .NET Framework.
 
 .NET Framework é coisa do passado.
 
-
-
 ## O que é, como e onde usar .NET
 
 O .NET é uma infraestrutura para desenvolvimento de softwares, criada pela Microsoft. Uma aplicação .NET é desenvolvida usando uma das seguintes tecnologias:  .NET Core, .NET Framework, Mono ou UWP (Universal Windows Platform).
@@ -84,15 +82,11 @@ Cada implementação abaixo inclui um ou mais .NET Runtimes (ambientes de execu�
 
 Atualmente a Microsoft desenvolve e suporta 3 linguagens para .NET: C#, F# e VB.
 
-
-
 ## Preparando o ambiente
 
 ## Conhecendo a CLI do .NET
 
 ## Criando uma aplicação console
-
-
 
 ## Referências
 
@@ -103,7 +97,3 @@ Atualmente a Microsoft desenvolve e suporta 3 linguagens para .NET: C#, F# e VB.
 [Programação funcional: O que é? | Alura Cursos Online](https://www.alura.com.br/artigos/programacao-funcional-o-que-e?gclid=EAIaIQobChMIrKeW54zn9AIVBMDICh3-pQxDEAAYASAAEgJfW_D_BwE)
 
 [Entenda a programação funcional em 12 minutos - YouTube](https://www.youtube.com/watch?v=BWFpUHPqh1g)
-
-
-
-
