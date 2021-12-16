@@ -15,6 +15,8 @@ O Decola Tech Avanade é o programa de Estágio da Avanade no qual os futuros ta
 * [Estrutura de Dados e Algorítmos](Estrutura%20de%20Dados%20e%20Algorítmos/README.md)
 
 * [Introdução ao Git e ao GitHub](Introdução%20ao%20Git%20e%20ao%20GitHub/README.md)
+  
+  * BONUS: [Como renomear de "master" para "main"?](Introdução%20ao%20Git%20e%20ao%20GitHub/Renomear%20Branch)
 
 * Criando primeiro repositório no GitHub para compartilhar o progresso
 
