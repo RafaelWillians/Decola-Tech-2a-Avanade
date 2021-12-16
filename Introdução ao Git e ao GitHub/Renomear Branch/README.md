@@ -8,9 +8,7 @@ Recentemente o GitHub mudou o nome padrão da branch, de ''master'' para ''main'
 
 Durante a instalação, basta marcar a opção mais abaixo (Override the default branch name for new repositories) e digitar a palavra "main".
 
-![](C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Introdução%20ao%20Git%20e%20ao%20GitHub\Renomear%20Branch\tela-instalacao.png)
-
-
+![](tela-instalacao.png)
 
 Os repositórios existentes não vão ter os nomes alterados. Para isso você precisa alterá-los manualmente no Git e no site do GitHub.
 
@@ -22,23 +20,17 @@ Se você quiser mudar o padrão para os próximos repositórios, abra o Git Bash
 
 Caso você já tenha criado o repositório e queira renomear tanto localmente, quanto no site GitHub, primeiramente acesse o seu repositório no GitHub.
 
-![](C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Introdução%20ao%20Git%20e%20ao%20GitHub\Renomear%20Branch\tela-github.png)
-
-
+![](tela-github.png)
 
 Depois, clique no botão ''branch'' ou ''branches'' mais acima.
 
-![](C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Introdução%20ao%20Git%20e%20ao%20GitHub\Renomear%20Branch\clicar-branch.png)
-
-
+![](clicar-branch.png)
 
 Depois, clique no lápis mais a direita, do nome que está como Default, digite "main" e clique em "Rename branch".
 
-![](C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Introdução%20ao%20Git%20e%20ao%20GitHub\Renomear%20Branch\renomear-branch.png)
+![](renomear-branch.png)
 
-![](C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Introdução%20ao%20Git%20e%20ao%20GitHub\Renomear%20Branch\renomear-para-main.png)
-
-
+![](renomear-para-main.png)
 
 Depois disso, para renomear o repositório local, abra o Git Bash na pasta onde você criou esse repositório no seu computador e execute os seguintes comandos, trocando "nome_antigo" pelo nome que estava antes e "nome_novo" pelo nome novo:
 
