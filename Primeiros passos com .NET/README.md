@@ -171,6 +171,16 @@ Tipos de Referência:
 
 * Outros: interface, delegate
 
+### Instruções em programas
+
+Há as expressões em bloco, com o símbolo de "{}". 
+
+Há também da declaração de variáveis e constantes, usando os tipos acima.
+
+Declarações de condições, como if, switch, while, do, for, foreach.
+
+Outras instruções, como break, continue, return, throw, try .. catch .. finally, using.
+
 
 
 ## Referências
