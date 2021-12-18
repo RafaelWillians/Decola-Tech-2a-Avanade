@@ -60,7 +60,7 @@ Agora só existe .NET 5, não mais .NET Framework.
 
 .NET Framework é coisa do passado.
 
-## O que é, como e onde usar .NET
+## O que é, como e onde usar .NET?
 
 O .NET é uma infraestrutura para desenvolvimento de softwares, criada pela Microsoft. Uma aplicação .NET é desenvolvida usando uma das seguintes tecnologias:  .NET Core, .NET Framework, Mono ou UWP (Universal Windows Platform).
 
@@ -84,9 +84,94 @@ Atualmente a Microsoft desenvolve e suporta 3 linguagens para .NET: C#, F# e VB.
 
 ## Preparando o ambiente
 
+Instalação do [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/) e [Visual Studio Code](https://code.visualstudio.com/) 
+
+
+
 ## Conhecendo a CLI do .NET
 
-## Criando uma aplicação console
+Executando "dotnet --help" no prompt dará uma lista com vários comandos possíveis do .NET.
+
+Exemplos de comandos:
+
+| Comando            | Ação                                                                                                             | Exemplo de uso                          |                                                               |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------- |
+| dotnet --version   | Traz a versão do .NET Instalado.                                                                                 |                                         |                                                               |
+| dotnet --info      | Traz a lista de todos os recursos instalados do .NET.                                                            |                                         |                                                               |
+| dotnet new console | Criar projeto de aplicação console na pasta atual.                                                               | dotnet new console -n "Nome do projeto" | Criar com nome específico                                     |
+| -h                 | Parâmetro de ajuda, para saber mais sobre o comando digitado. Usar na mesma linha do comando, no final do mesmo. | dotnet new -h                           | Mostra quais tipos de projeto disponíveis para serem criados. |
+| cd NomePasta       | Abrirá o diretório informado.                                                                                    |                                         |                                                               |
+| explorer .         | Abrirá o Windows Explorer na pasta em questão.                                                                   |                                         |                                                               |
+| code .             | Abrirá o Visual Studio Code e nele, o conteúdo da pasta atual.                                                   |                                         |                                                               |
+| dotnet restore     | Restaura/baixa/atualiza os pacotes que o projeto da pasta em questão precisa utilizar.                           |                                         |                                                               |
+| dotnet build       | Faz todo o processo de compilação dos arquivos do projeto .NET da pasta em questão.                              |                                         |                                                               |
+| dotnet run         | Roda o executável do projeto em questão.                                                                         | dotnet run -p Caminhosubpasta/          | Roda o executável do projeto salvo no caminho informado.      |
+
+## Criando uma aplicação console usando terminal do Windows (prompt ou mesmo o Git Bash)
+
+Usando o comando acima "dotnet new console" na pasta que desejar criar o projeto. Para colocar um nome específico, tem o comando "dotnet new console -n "Nome do projeto"".
+
+## Conhecendo o C#
+
+### O que é C#?
+
+É uma linguagem de programação orientada a objeto e fortemente tipada. Tem sintaxe similar a do C, C++ ou Java e suporta conceitos de encapsulamento, herança e polimorfismo.
+
+Os programas são executados no .NET (CLR e conjunto unificado de libraries de classes).
+
+O compilador atual é o Roslyn.
+
+### Como funciona?
+
+O código-fonte escrito no C# é compilado para a IL (linguagem intermediária). O código e os recursos do IL são salvos em disco em um executável chamado assembly, com a extensão .exe ou .dll.
+
+Dúvida: seriam as dll's na verdade "executáveis" como os .exe são para nós, mas para os próprios .exe?
+
+Quando o programa C# é executado, o assembly é carregado no CLR. Depois este executa a compilação JIT para transformar o IL em instruções de máquina.
+
+
+
+Código em C# > IL > linguagem de máquina
+
+O CLR tem outros recursos, como:
+
+* Garbage Collector, para coletar o "lixo" da aplicação, liberando recurso não utilizado pela mesma;
+
+* Exception Handler, que serve para controlar possíveis execuções com erro da aplicação;
+
+* Resources Manager, ou gerenciador de recursos que a aplicação possa precisar.
+
+![](estrutura-projeto-csharp.png)
+
+O .NET também tem uma extensa biblioteca de classes, com diversas funcionalidades, desde manipulação de arquivos, caracteres, banco de dados, entre outros.
+
+## Conhecendo variáveis e instruções
+
+### Tipos de valor
+
+Tipos de variáveis:
+
+* Numéricos: sbyte, short, int, long, byte, ushort, uint, ulong
+
+* Caracteres unicode: char
+
+* Pontos flutuantes: float, double, decimal
+
+* Booleano: bool
+
+* Outros: enum, struct e tipos nullable (Exemplo: int?)
+
+Variáveis de tipos de referência: armazenam referências a seus dados, não os dados em si. Em um local na memória, tem a variável com determinado valor, e em outro local na memória fica armazenada a variável de referência a este valor. Servem para armazenarem toda uma cadeia de dados, ou para a grosso modo, "trazerem" todo um bloco de dados para que o programa trabalhe com esses dados todos de uma forma melhor organizada, em algum momento. Pra que ficar digitando a criação de variável por variável no código, se podemos escrever no código de uma forma mais fácil, reutilizando esses mesmos recursos em vez de ficar criando na unha toda vez que fossem usadas?
+
+Tipos de Referência:
+
+* Tipos Classe: class, object, string
+
+* Tipos Arrays: int[], int[,], etc...
+
+* Outros: interface, delegate
+
+
 
 ## Referências
 
@@ -97,3 +182,5 @@ Atualmente a Microsoft desenvolve e suporta 3 linguagens para .NET: C#, F# e VB.
 [Programação funcional: O que é? | Alura Cursos Online](https://www.alura.com.br/artigos/programacao-funcional-o-que-e?gclid=EAIaIQobChMIrKeW54zn9AIVBMDICh3-pQxDEAAYASAAEgJfW_D_BwE)
 
 [Entenda a programação funcional em 12 minutos - YouTube](https://www.youtube.com/watch?v=BWFpUHPqh1g)
+
+[Conemu](https://conemu.github.io/)
