@@ -1,0 +1,15 @@
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\bin\Debug\net6.0\Projeto Console.exe
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\bin\Debug\net6.0\Projeto Console.deps.json
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\bin\Debug\net6.0\Projeto Console.runtimeconfig.json
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\bin\Debug\net6.0\Projeto Console.dll
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\bin\Debug\net6.0\ref\Projeto Console.dll
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\bin\Debug\net6.0\Projeto Console.pdb
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\obj\Debug\net6.0\Projeto Console.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\obj\Debug\net6.0\Projeto Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\obj\Debug\net6.0\Projeto Console.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\obj\Debug\net6.0\Projeto Console.AssemblyInfo.cs
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\obj\Debug\net6.0\Projeto Console.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\obj\Debug\net6.0\Projeto Console.dll
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\obj\Debug\net6.0\ref\Projeto Console.dll
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\obj\Debug\net6.0\Projeto Console.pdb
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\Projeto Console\obj\Debug\net6.0\Projeto Console.genruntimeconfig.cache
