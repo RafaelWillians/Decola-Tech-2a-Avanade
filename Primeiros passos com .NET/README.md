@@ -92,18 +92,19 @@ Executando "dotnet --help" no prompt dará uma lista com vários comandos possí
 
 Exemplos de comandos:
 
-| Comando            | Ação                                                                                                             | Exemplo de uso                          |                                                               |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------- |
-| dotnet --version   | Traz a versão do .NET Instalado.                                                                                 |                                         |                                                               |
-| dotnet --info      | Traz a lista de todos os recursos instalados do .NET.                                                            |                                         |                                                               |
-| dotnet new console | Criar projeto de aplicação console na pasta atual.                                                               | dotnet new console -n "Nome do projeto" | Criar com nome específico                                     |
-| -h                 | Parâmetro de ajuda, para saber mais sobre o comando digitado. Usar na mesma linha do comando, no final do mesmo. | dotnet new -h                           | Mostra quais tipos de projeto disponíveis para serem criados. |
-| cd NomePasta       | Abrirá o diretório informado.                                                                                    |                                         |                                                               |
-| explorer .         | Abrirá o Windows Explorer na pasta em questão.                                                                   |                                         |                                                               |
-| code .             | Abrirá o Visual Studio Code e nele, o conteúdo da pasta atual.                                                   |                                         |                                                               |
-| dotnet restore     | Restaura/baixa/atualiza os pacotes que o projeto da pasta em questão precisa utilizar.                           |                                         |                                                               |
-| dotnet build       | Faz todo o processo de compilação dos arquivos do projeto .NET da pasta em questão.                              |                                         |                                                               |
-| dotnet run         | Roda o executável do projeto em questão.                                                                         | dotnet run -p Caminhosubpasta/          | Roda o executável do projeto salvo no caminho informado.      |
+| Comando                               | Ação                                                                                                             | Exemplo de uso                          |                                                               |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------- |
+| dotnet --version                      | Traz a versão do .NET Instalado.                                                                                 |                                         |                                                               |
+| dotnet --info                         | Traz a lista de todos os recursos instalados do .NET.                                                            |                                         |                                                               |
+| dotnet new console                    | Criar projeto de aplicação console na pasta atual.                                                               | dotnet new console -n "Nome do projeto" | Criar com nome específico                                     |
+| -h                                    | Parâmetro de ajuda, para saber mais sobre o comando digitado. Usar na mesma linha do comando, no final do mesmo. | dotnet new -h                           | Mostra quais tipos de projeto disponíveis para serem criados. |
+| cd NomePasta                          | Abrirá o diretório informado.                                                                                    |                                         |                                                               |
+| explorer .                            | Abrirá o Windows Explorer na pasta em questão.                                                                   |                                         |                                                               |
+| code .                                | Abrirá o Visual Studio Code e nele, o conteúdo da pasta atual.                                                   |                                         |                                                               |
+| dotnet restore                        | Restaura/baixa/atualiza os pacotes que o projeto da pasta em questão precisa utilizar.                           |                                         |                                                               |
+| dotnet build                          | Faz todo o processo de compilação dos arquivos do projeto .NET da pasta em questão.                              |                                         |                                                               |
+| dotnet run                            | Roda o executável do projeto em questão.                                                                         | dotnet run -p Caminhosubpasta/          | Roda o executável do projeto salvo no caminho informado.      |
+| dotnet new console --framework net5.0 | Cria um novo projeto de aplicação console, na versão do .NET Framework 5.0                                       |                                         |                                                               |
 
 ## Criando uma aplicação console usando terminal do Windows (prompt ou mesmo o Git Bash)
 
@@ -374,3 +375,5 @@ enum Cor
 [Conemu](https://conemu.github.io/)
 
 [Técnicos - EximiaCo](https://eximia.co/personas/tecnicos/)
+
+[# Entenda finalmente a diferença entre struct e class — C#](https://medium.com/@alexandre.malavasi/entenda-finalmente-a-diferen%C3%A7a-entre-struct-e-class-c-db1e34a96d50)
