@@ -164,6 +164,7 @@ Comandos para iniciar no Git e criar commits:
 | Atribuir email à configuração global do Git                | git config --global [user.email](http://user.email) "email@email.com" |                                                                                                                                    |
 | Atribuir nome de usuário à configuração global do Git      | git config --global [user.name](http://user.name) Seu_Nome            |                                                                                                                                    |
 | Ver status de repositório local                            | git status                                                            |                                                                                                                                    |
+| Clonar (baixar) um repositório remoto                      | git clone                                                             | git clone https://github.com/RafaelWillians/Decola-Tech-2a-Avanade.git                                                             |
 
 ## Como dar commit?
 

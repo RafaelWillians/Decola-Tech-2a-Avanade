@@ -86,8 +86,6 @@ Atualmente a Microsoft desenvolve e suporta 3 linguagens para .NET: C#, F# e VB.
 
 Instalação do [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads/) e [Visual Studio Code](https://code.visualstudio.com/) 
 
-
-
 ## Conhecendo a CLI do .NET
 
 Executando "dotnet --help" no prompt dará uma lista com vários comandos possíveis do .NET.
@@ -128,8 +126,6 @@ O código-fonte escrito no C# é compilado para a IL (linguagem intermediária).
 Dúvida: seriam as dll's na verdade "executáveis" como os .exe são para nós, mas para os próprios .exe?
 
 Quando o programa C# é executado, o assembly é carregado no CLR. Depois este executa a compilação JIT para transformar o IL em instruções de máquina.
-
-
 
 Código em C# > IL > linguagem de máquina
 
@@ -181,9 +177,191 @@ Declarações de condições, como if, switch, while, do, for, foreach.
 
 Outras instruções, como break, continue, return, throw, try .. catch .. finally, using.
 
+### Exemplos de códigos
+
+Exemplos disponíveis no GitHub do Gabriel: [GitHub - gabrielfaraday/csharp-examples](https://github.com/gabrielfaraday/csharp-examples.git)
+
+## Classes e Objetos no C#
+
+As classes são os tipos mais fundamentais do C#. São estruturas de dados que combinam estados (ou os campos) e ações (que são os métodos, as funções).
+
+Objetos são instâncias de uma classe, a grosso modo como "uma cópia" editável da classe.
+
+As classes podem ter herança e polimorfismo, que são derivações da classe que podem expandir ou especializar tais classes. Como por exemplo uma relação entre pai e filho (herança).
+
+Exemplo para instanciar classe: "Ponto p1 - new Ponto(0,0);"
+
+Há também os construtores, que servem para definir que tipos dados essa classe irá receber, e no caso de usar variáveis na classe, como esses dados que ela receberá serão armazenadas.
+
+A memória que o objeto ocupa é recuperada automaticamente pelo Garbage Collector, quando não mais acessível. Não é necessário desalocar explicitamente os objetos no C#.
+
+Os membros da classe (como constantes, variáveis, métodos, construtores, propriedades, etc.) podem ser estáticos (pertencentes a classe) ou membros da instância em si (percententes ao objeto).
+
+Tipos de acessibilidade das classes: 
+
+* public: qualquer parte do código pode acessar;
+
+* protected: apenas classes herdadas podem ter tais classes;
+
+* internal: somente acessível dentro do mesmo assembly que a classe faz parte;
+
+* private: somente dentro daquela classe em questão;
+
+* virtual: permite que uma classe filha sobrescreva suas ações;
+
+* override: indica que irá sobrescrever a classe declarada como virtual anteriormente.
+
+### Herança
+
+quando se é declarada herança de uma classe, serão herdados todos os membros public, internal e protected da classe base.
+
+Exemplo de declaração de herança: 
+
+public class Ponto3D : Ponto
+
+Exemplo de declarar construtor, herdando parâmetros da classe base: 
+
+public Ponto3D(int x, int y, int z) : base(x, y)
+
+ {
+
+ this.z = z;
+
+}
+
+### Métodos
+
+São membros que implementam uma computação ou ação que pode ser executada pelo objeto ou classe. Podem ou não receber parâmetros em valores ou referências de variáveis, e podem ou não retornar algum valor. 
+
+Normalmente se declara um nome membro usando um verbo, por se tratar de alguma ação que aquela classe ou objeto fará.
+
+### Exemplo de chamada por referência
+
+No exemplo abaixo, é declarado o termo "ref" porque, se tirarmos esse "ref", o programa não vai inverter os dois números.
+
+Esse "ref" indica que, conforme é executado o método "Inverter", iremos tanto receber o parâmetro em si da variável que passarmos por parâmetro ao chamá-lo, quanto alterarmos os valores dessas variáveis que foram passadas por parâmetro. Ou seja, com o "ref", iremos sim inverter os números normalmente.
+
+public class Ref
+
+ {
+
+ static void Inverter(ref int x, ref int y)
+
+ {
+
+ int temp = x;
+
+ x = y;
+
+ y = temp;
+
+ }
+
+ public static void Inverter()
+
+ {
+
+ int i = 1, j = 2;
+
+ Inverter(ref i, ref j);
+
+ System.Console.WriteLine($"{i} {j}"); // Escreve "2 1"
+
+ }
+
+ }
+
+
+
+Há também o uso de "out", que trabalha como o "return" de um método.
+
+public class Out
+
+ {
+
+ static void Dividir(int x, int y, out int resultado, out int resto)
+
+ {
+
+ resultado = x / y;
+
+ resto = x % y;
+
+ }
+
+ public static void Dividir()
+
+ {
+
+ Dividir(10, 3, out int resultado, out int resto);
+
+ Console.WriteLine("{0} {1}", resultado, resto); // Escreve "3 1"
+
+ }
+
+ }
+
+## Structs, Interfaces e Enums
+
+Structs são estruturas que podem conter membros de dados e de ação, mas são tipos de valor e não requererm alocação de heap. São diferentes das classes.
+
+Uma variável struct armazena diretamente os dados da estrutura, enquanto uma variável de um tipo de classe armazena a referência a um objeto na memória.
+
+Não aceitam herança. São estruturas mais simples, pra armazenar dados diretamente, como números complexos, pontos de GPS, etc. Structs alocam menos memória.
+
+Interfaces são como contratos para classes e structs. Pode conter métodos, propriedades, eventos e indexadores. Ela geralmente não implementa membros, mas pode implementar. Ela apenas fornece a sua "assinatura". Podem empregar herança múltipla.
+
+interface IControl
+
+{
+
+    void Paint();
+
+}
+
+interface IListBox
+
+{
+
+    void SetText(string text);
+
+}
+
+interface IComboBox : ITextBox, IListBox 
+
+//herdando tanto da ITextBox quanto da IListBox
+
+{
+
+}
+
+Enums serve pra definir um conjunto de constantes nomeadas. É como se fosse um vetor de constantes só que, em vez de trabalharmos com valores numéricos em si ou índices, usamos o nome em si do item que estamos nos referindo.
+
+enum Cor
+
+{
+
+    Vermelho,
+
+    Verde,
+
+    Azul
+
+}
+
+
+
+ 
+
+
+
+
+
 
 
 ## Referências
+
+[GitHub - gabrielfaraday/csharp-examples]([GitHub - gabrielfaraday/csharp-examples](https://github.com/gabrielfaraday/csharp-examples.git))
 
 [.NET Foundation](https://dotnetfoundation.org)
 
@@ -194,3 +372,5 @@ Outras instruções, como break, continue, return, throw, try .. catch .. finall
 [Entenda a programação funcional em 12 minutos - YouTube](https://www.youtube.com/watch?v=BWFpUHPqh1g)
 
 [Conemu](https://conemu.github.io/)
+
+[Técnicos - EximiaCo](https://eximia.co/personas/tecnicos/)
