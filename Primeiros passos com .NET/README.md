@@ -272,8 +272,6 @@ public class Ref
 
  }
 
-
-
 Há também o uso de "out", que trabalha como o "return" de um método.
 
 public class Out
@@ -349,16 +347,6 @@ enum Cor
     Azul
 
 }
-
-
-
- 
-
-
-
-
-
-
 
 ## Referências
 
