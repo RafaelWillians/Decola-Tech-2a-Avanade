@@ -8,7 +8,7 @@ Recentemente o GitHub mudou o nome padrão da branch, de ''master'' para ''main'
 
 Durante a instalação, basta marcar a opção mais abaixo (Override the default branch name for new repositories) e digitar a palavra "main".
 
-![](tela-instalacao.png)
+![](/tela-instalacao.png)
 
 Os repositórios existentes não vão ter os nomes alterados. Para isso você precisa alterá-los manualmente no Git e no site do GitHub.
 
