@@ -30,7 +30,7 @@ O Decola Tech Avanade é o programa de Estágio da Avanade no qual os futuros ta
 
 * Construtores, Propriedades, Delegates e Eventos em .NET
 
-* Criando o ambiente de desenvolvimento
+* [Criando o ambiente de desenvolvimento](Criando%20o%20ambiente%20de%20desenvolvimento/)
 
 * Fundamentos de Coleções e LINQ com. NET
 
