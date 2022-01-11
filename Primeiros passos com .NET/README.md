@@ -348,6 +348,54 @@ enum Cor
 
 }
 
+## Exemplos de códigos no C#
+
+* Console.WriteLine($"MÉDIA GERAL: {mediaGeral}");
+
+Escreve, pulando uma linha, no console o texto "MÉDIA GERAL: " e concatena o texto armazenado na variável mediaGeral. A cifra antes das aspas é necessária, para conseguir escrever o texto da variável no console.
+
+* string opcaoUsuario = Console.ReadLine();
+
+É uma atribuição de variável do tipo string, em que faremos com que o usuário consiga digitar um texto e esse texto vai ficar armazenado nessa variável opcaoUsuario. Fazemos essa atribuição no código, no momento que desejarmos que o usuário digite algo no programa.
+
+* if(int.TryParse(Console.ReadLine(), out int nota))
+  
+   {
+  
+   aluno.Nota = nota;
+  
+   }
+  
+   else
+  
+   {
+  
+   throw new ArgumentException("O valor da nota precisa ser inteiro!");
+  
+   }
+
+Esse trecho de código serve para que o usuário possa digitar algum número no console, do tipo inteiro, para por exemplo calcularmos uma nota a um aluno. A condição do "if" fará com que o usuário consiga digitar um texto e, por conta do TryParse, o programa vai tentar converter o que foi digitado para o tipo inteiro e vai atribuir essa conversão à variável nota.
+
+Então, se der certo essa conversão, o nosso objeto aluno vai receber essa nota. Do contrário (conforme o else abaixo), vai retornar um erro informando que o valor precisa ser do tipo inteiro.
+
+Para trabalharmos com string, não precisa de conversão.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Referências
 
 [GitHub - gabrielfaraday/csharp-examples]([GitHub - gabrielfaraday/csharp-examples](https://github.com/gabrielfaraday/csharp-examples.git))
