@@ -1,0 +1,16 @@
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\bin\Debug\net5.0\App teste.exe
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\bin\Debug\net5.0\App teste.deps.json
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\bin\Debug\net5.0\App teste.runtimeconfig.json
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\bin\Debug\net5.0\App teste.runtimeconfig.dev.json
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\bin\Debug\net5.0\App teste.dll
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\bin\Debug\net5.0\ref\App teste.dll
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\bin\Debug\net5.0\App teste.pdb
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\obj\Debug\net5.0\App teste.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\obj\Debug\net5.0\App teste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\obj\Debug\net5.0\App teste.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\obj\Debug\net5.0\App teste.AssemblyInfo.cs
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\obj\Debug\net5.0\App teste.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\obj\Debug\net5.0\App teste.dll
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\obj\Debug\net5.0\ref\App teste.dll
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\obj\Debug\net5.0\App teste.pdb
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Primeiros passos com .NET\App teste\obj\Debug\net5.0\App teste.genruntimeconfig.cache
