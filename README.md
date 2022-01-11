@@ -10,21 +10,21 @@ O Decola Tech Avanade é o programa de Estágio da Avanade no qual os futuros ta
 
 ## Conteúdo
 
-* [Lógica de Programação Essencial](Lógica%20de%20Programação%20Essencial/README.md)
+* [Lógica de Programação Essencial](Lógica%20de%20Programação%20Essencial/)
 
-* [Estrutura de Dados e Algorítmos](Estrutura%20de%20Dados%20e%20Algorítmos/README.md)
+* [Estrutura de Dados e Algorítmos](Estrutura%20de%20Dados%20e%20Algorítmos/)
 
-* [Introdução ao Git e ao GitHub](Introdução%20ao%20Git%20e%20ao%20GitHub/README.md)
+* [Introdução ao Git e ao GitHub](Introdução%20ao%20Git%20e%20ao%20GitHub/)
   
   * BONUS: [Como renomear de "master" para "main"?](Introdução%20ao%20Git%20e%20ao%20GitHub/Renomear%20Branch/README.md)
 
 * Criando primeiro repositório no GitHub para compartilhar o progresso
 
-* [IDE Visual Studio - Instalação e Configuração](IDE%20Visual%20Studio%20-%20Instalação%20e%20Configuração/README.md)
+* [IDE Visual Studio - Instalação e Configuração](IDE%20Visual%20Studio%20-%20Instalação%20e%20Configuração/)
 
-* [Introdução ao C# e .NET](Introdução%20ao%20C%23%20e%20.NET/README.md)
+* [Introdução ao C# e .NET](Introdução%20ao%20C%23%20e%20.NET/)
 
-* [Primeiros passos com .NET](Primeiros%20passos%20com%20.NET/README.md)
+* [Primeiros passos com .NET](Primeiros%20passos%20com%20.NET/)
 
 * Programando com Orientação a Objetos com C#
 
