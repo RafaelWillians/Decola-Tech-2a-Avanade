@@ -380,22 +380,6 @@ Então, se der certo essa conversão, o nosso objeto aluno vai receber essa nota
 
 Para trabalharmos com string, não precisa de conversão.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Referências
 
 [GitHub - gabrielfaraday/csharp-examples]([GitHub - gabrielfaraday/csharp-examples](https://github.com/gabrielfaraday/csharp-examples.git))
