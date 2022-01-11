@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-19 06:49:24 "/>
+        <attribute name="created" value="UEM7REVTS1RPUC03REVCVklJOzIwMjEtMTItMTk7IjA1OjI0OjA2ICI7MjQxMA=="/>
+        <attribute name="edited" value="UEM7REVTS1RPUC03REVCVklJOzIwMjEtMTItMTk7IjA2OjQ5OjI0ICI7MTY7MjU4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="Aluno(nome, nota)"/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="nota" type="Real" array="False" size=""/>
+            <input variable="nome"/>
+            <input variable="nota"/>
+            <output expression="nome + nota" newline="True"/>
+        </body>
+    </function>
+    <function name="Aluno" type="None" variable="">
+        <parameters>
+            <parameter name="nome" type="String" array="False"/>
+            <parameter name="nota" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="nota" type="Integer" array="False" size=""/>
+            <output expression="nome + nota" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
