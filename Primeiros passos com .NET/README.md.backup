@@ -314,7 +314,7 @@ interface IControl
 
 {
 
-    void Paint();
+    void Paint();
 
 }
 
@@ -322,7 +322,7 @@ interface IListBox
 
 {
 
-    void SetText(string text);
+    void SetText(string text);
 
 }
 
@@ -340,11 +340,11 @@ enum Cor
 
 {
 
-    Vermelho,
-    
-    Verde,
-    
-    Azul
+    Vermelho,
+
+    Verde,
+
+    Azul
 
 }
 
@@ -382,7 +382,7 @@ Para trabalharmos com string, não precisa de conversão.
 
 ## Referências
 
-[GitHub - gabrielfaraday/csharp-examples](https://github.com/gabrielfaraday/csharp-examples.git)
+[GitHub - gabrielfaraday/csharp-examples]([GitHub - gabrielfaraday/csharp-examples](https://github.com/gabrielfaraday/csharp-examples.git))
 
 [.NET Foundation](https://dotnetfoundation.org)
 
@@ -396,4 +396,4 @@ Para trabalharmos com string, não precisa de conversão.
 
 [Técnicos - EximiaCo](https://eximia.co/personas/tecnicos/)
 
-[Entenda finalmente a diferença entre struct e class — C#](https://medium.com/@alexandre.malavasi/entenda-finalmente-a-diferen%C3%A7a-entre-struct-e-class-c-db1e34a96d50)
+[# Entenda finalmente a diferença entre struct e class — C#](https://medium.com/@alexandre.malavasi/entenda-finalmente-a-diferen%C3%A7a-entre-struct-e-class-c-db1e34a96d50)
