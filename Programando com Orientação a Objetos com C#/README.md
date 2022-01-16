@@ -18,7 +18,7 @@ Exemplos de linguagens de programação: C#, Java, Javascript, etc.
 
 ## Abstração
 
-### [* Artigo novo - como resolver erro na extensão OmniSharp, ao tentar selecionar projeto no Visual Studio Code mais recente](Programando%20com%20Orienta%C3%A7%C3%A3o%20a%20Objetos%20com%20C%23/Fix%20para%20extens%C3%A3o%20OmniSharp/README.md)
+### [* Artigo novo - como resolver erro na extensão OmniSharp, ao tentar selecionar projeto no Visual Studio Code mais recente](/Fix%20para%20extens%C3%A3o%20OmniSharp/README.md)
 
 Seria para abstrair um objeto para um contexto específico, considerando apenas alguns atributos.
 
