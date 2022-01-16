@@ -26,6 +26,10 @@ Seria por exemplo utilizar no objeto apenas alguns atributos ou métodos especí
 
 ## Encapsulamento
 
+Serve para proteger e limitar alteração de propriedades de uma classe, para expor somente o necessário.
+
+Tipos de modificadores de acesso: public, protected internal, protected, internal, private protected, private. 
+
 ## Herança
 
 ## Polimorfismo
@@ -35,6 +39,10 @@ Seria por exemplo utilizar no objeto apenas alguns atributos ou métodos especí
 ## Interfaces
 
 ## Manipular arquivo
+
+## Atalhos C#
+
+Digitar ''cw'' = completa automaticamente no código com "System.Console.WriteLine();"
 
 ## Referências
 
