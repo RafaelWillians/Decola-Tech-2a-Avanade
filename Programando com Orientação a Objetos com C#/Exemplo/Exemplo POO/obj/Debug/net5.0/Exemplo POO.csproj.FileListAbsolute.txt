@@ -1,0 +1,16 @@
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\bin\Debug\net5.0\Exemplo POO.exe
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\bin\Debug\net5.0\Exemplo POO.deps.json
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\bin\Debug\net5.0\Exemplo POO.runtimeconfig.json
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\bin\Debug\net5.0\Exemplo POO.runtimeconfig.dev.json
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\bin\Debug\net5.0\Exemplo POO.dll
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\bin\Debug\net5.0\ref\Exemplo POO.dll
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\bin\Debug\net5.0\Exemplo POO.pdb
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\obj\Debug\net5.0\Exemplo POO.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\obj\Debug\net5.0\Exemplo POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\obj\Debug\net5.0\Exemplo POO.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\obj\Debug\net5.0\Exemplo POO.AssemblyInfo.cs
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\obj\Debug\net5.0\Exemplo POO.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\obj\Debug\net5.0\Exemplo POO.dll
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\obj\Debug\net5.0\ref\Exemplo POO.dll
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\obj\Debug\net5.0\Exemplo POO.pdb
+C:\Users\PC\Documents\Workspace\Decola-Tech-2a-Avanade\Programando com Orientação a Objetos com C#\Exemplo\Exemplo POO\obj\Debug\net5.0\Exemplo POO.genruntimeconfig.cache
