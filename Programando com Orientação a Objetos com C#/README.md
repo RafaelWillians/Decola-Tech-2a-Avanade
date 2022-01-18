@@ -32,7 +32,27 @@ Tipos de modificadores de acesso: public, protected internal, protected, interna
 
 ## Herança
 
+Permite reutilizar código de uma classe em outras. Serve para agrupar objetos de mesmo tipo, mas com características diferentes.
+
+Exemplo de uma pessoa. A pessoa tem uma mãe, essa pessoa herdará certas características da mãe, porém terá outras diferentes. Ou em outro exemplo, criando uma classe chamada Pessoa. As classes Aluno e Engenheiro, por exemplo, herdam características da Pessoa.
+
 ## Polimorfismo
+
+Para sobrescrevermos métodos das classes filhas, para se comportarem de forma diferente da classe mãe.
+
+Declaramos o mesmo nome do método, porém mudamos no código como o método vai se comportar na classe filha.
+
+### Polimorfismo em tempo de compilação (Overload/Early Binding)
+
+O nome é o mesmo, porém é alterada a assinatura do método (no exemplo abaixo, só muda que terá um parâmetro a mais e retornará a soma dele com os outros existentes)
+
+![](Imagens/polimorfismo-tempo-compilacao.png)
+
+### Polimorfirmo em tempo de execução (Override/Late Binding)
+
+Declaramos uma propriedade "virtual" ao método da classe mãe, indicando que ela poderá ser sobrescrita, e "override" no método da classe filha, para sobrescrevermos o comportamento desse método nessa classe filha.
+
+![](Imagens/polimorfismo-tempo-execucao.png)
 
 ## Classes abstratas
 
