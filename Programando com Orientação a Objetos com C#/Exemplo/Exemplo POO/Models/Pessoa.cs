@@ -7,9 +7,14 @@ namespace Exemplo_POO.Models
         public string Nome{get; set;}
         public int Idade {get; set;}
 
-        public void Apresentar ()
+        public virtual void Apresentar ()
         {
             Console.WriteLine($"Nome: {Nome} - Idade: {Idade} anos");
         }
+        /*public void Apresentar ()
+        {
+            Console.WriteLine($"Nome: {Nome} - Idade: {Idade} anos");
+        }
+        */
     }
 }
