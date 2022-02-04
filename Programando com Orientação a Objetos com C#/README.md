@@ -48,7 +48,7 @@ O nome é o mesmo, porém é alterada a assinatura do método (no exemplo abaixo
 
 ![](Imagens/polimorfismo-tempo-compilacao.png)
 
-### Polimorfirmo em tempo de execução (Override/Late Binding)
+### Polimorfismo em tempo de execução (Override/Late Binding)
 
 Declaramos uma propriedade "virtual" ao método da classe mãe, indicando que ela poderá ser sobrescrita, e "override" no método da classe filha, para sobrescrevermos o comportamento desse método nessa classe filha.
 
@@ -56,7 +56,43 @@ Declaramos uma propriedade "virtual" ao método da classe mãe, indicando que el
 
 ## Classes abstratas
 
+Serve para ser uma base para ser herdada. Não pode ser instanciada.
+
+Tem como na classe abstrata, por exemplo, criar métodos abstratos, que servirão somente para serem sobrescritas pelas classes que herdam. Porém é obrigatório sobrescrever estes métodos nas classes filhas. 
+
+![](Imagens/classe-abstrata.png)
+
+### Classe selada
+
+Serve para impedir que ela seja herdada. Há também métodos e propriedades seladas.
+
+![](Imagens/classe-selada.png)
+
+### Classe Object
+
+A classe System.Object é a mãe de todas as classes na hierarquia do .NET.
+
+Todas derivam da classe Object direta ou indiretamente. Ela tem como o objetivo trazer serviços de baixo nível para as classes filhas.
+
+Alguns exemplos de métodos da System.Object:
+
+![](Imagens/exemplos-object.png)
+
+No exemplo abaixo, instanciando uma classe vazia de nome "Computador", vemos que mesmo com ela vazia, há métodos disponíveis para uso. São métodos herdados do System.Object.
+
+![](Imagens/metodos-object.png)
+
+No exemplo abaixo, modificamos o método ToString, herdado do System.Object, na classe Computador.
+
+![](Imagens/tostring.png)
+
 ## Interfaces
+
+Interfaces são como um contrato, que pode ser implementado por uma classe. É como uma lista de requisitos, que uma classe que a herdará deverá ter. 
+
+Bem parecida como uma classe abstrata, porém no C#, não há o conceito de herança múltipla entre classes, ou seja, uma classe somente pode herdar de uma única classe.
+
+Porém uma classe pode herdar mais de uma interface.
 
 ## Manipular arquivo
 
