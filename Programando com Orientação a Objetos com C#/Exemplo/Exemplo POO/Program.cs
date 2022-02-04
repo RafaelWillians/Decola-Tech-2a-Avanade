@@ -217,6 +217,14 @@ namespace Exemplo_POO
                         System.Console.WriteLine("Retorno do método ToString: ");
                         System.Console.WriteLine(comp.ToString());
                     break;
+                    case "9": 
+                        System.Console.WriteLine("Não implementado ainda.");
+                    break;
+                    case "10":
+                        System.Console.WriteLine("Não implementado ainda.");
+                    break;
+
+
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
